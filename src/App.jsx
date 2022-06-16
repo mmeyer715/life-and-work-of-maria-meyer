@@ -1,14 +1,24 @@
 import './App.css';
+import React from 'react';
+import Head from './components/HeaderNav';
+import About from './components/AboutMe';
+import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
-      Portfolio Container
+     <Head />
+     <About />
+     <Portfolio />
+     <Contact />
     </div>
   );
 }
 
 export default App;
+// break down into components from original portfolio
+// header needs to include nav
 
 // TODO
 // Create Header (name and nav: about me, portfolio, contact, resume)
@@ -19,6 +29,7 @@ export default App;
 
 // When porfolio loads, about me title and section selected by default
 // Must include recent photo and short bio in about me
+
 // In porfolio section, 6 images and links to applications and github repo
 // A single Project component that will be used multiple times in the Portfolio section
 
