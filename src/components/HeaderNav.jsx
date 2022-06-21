@@ -1,33 +1,52 @@
-import React from 'react';
+import React from "react";
 
-
-function Head() {
+function HeaderNav({ currentPage, handlePageChange }) {
+    const data = [
+        {
+            href: '#about-me',
+            pageName: 'About',
+        },
+        {
+            href: '#my-work',
+            pageName: 'Portfolio',
+        },
+        {
+            href: '#contact-me',
+            pageName: 'Contact',
+        },
+        {
+            href: '#resume',
+            pageName: 'Resume',
+        },
+    ]
     return (
-        <header>
-        <h1>
-            <a href="https://mmeyer715.github.io/Maria-Beans-Professional-Portfolio/">
-                Maria Bean
-            </a>
-        </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#about-me">About Me</a>
-                    
-                </li>
-                <li>
-                    <a href="#my-work">Work</a>
-                </li>
-                <li>
-                    <a href="#contact-me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="#resume">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    );
+        <header className='headerNav'>
+            <div className='d-flex justify-content-between'>
+                <div className='col-3'>
+                    <h1>
+                        Maria Meyer
+                    </h1>
+                </div>
+                <div className='col-9'>
+                    <ul className='nav nav-tabs'>
+                        {data.map((fields, index) => {
+                            return (
+                                <li key={index} className='nav-item'>
+                                    <a
+                                        href={fields.href}
+                                        onClick={() => handlePageChange(fields.pageName)}
+                                        className={currentPage === fields.pageName ? 'nav-link active' : 'nav-link'}
+                                    >
+                                        {fields.pageName}
+                                    </a>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
+            </div>
+        </header >
+    )
 }
 
-export default Head;
+export default HeaderNav;

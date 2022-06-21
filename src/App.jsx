@@ -1,17 +1,11 @@
 import './App.css';
 import React from 'react';
-import Head from './components/HeaderNav';
-import About from './components/AboutMe';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+import AppContainer from './components/AppContainer';
 
 function App() {
   return (
-    <div className="App">
-     <Head />
-     <About />
-     <Portfolio />
-     <Contact />
+    <div>
+     <AppContainer />
     </div>
   );
 }
@@ -21,7 +15,6 @@ export default App;
 // header needs to include nav
 
 // TODO
-// Create Header (name and nav: about me, portfolio, contact, resume)
 // title corresponding to  the current section is highlighted
 // Onclick, the nav tabs shouldn't reload page
 // A single Header component that appears on multiple pages
