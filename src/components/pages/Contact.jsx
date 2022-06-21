@@ -1,6 +1,14 @@
-import React from "react";
+import React, {useState} from "react";
+
 
 function Contact() {
+    const [formInfo, setFormInfo] = useState({
+        firstName: ''
+    })
+    const handleBlur = (event) => {
+        console.log(event.target.value.length);
+    }
+
     return (
 
         <section>
@@ -9,7 +17,7 @@ function Contact() {
                     <div className="row">
                         <div className="col">
                             <label for='firstName'>First Name:</label>
-                            <input type={'text'} className="form-control" placeholder="First name" />
+                            <input onBlur={handleBlur} className="form-control" placeholder="First name" name='firstName' />
                         </div>
                         <div className="col">
                             <label form="lastName">Last Name:</label>
@@ -26,12 +34,12 @@ function Contact() {
                     </div>
                 </div>
             </form>
-            <div class="flex-contact">
+            <div className="flex-contact">
                 <h1>Additional Contact Information</h1>
-                <div class="contact-info">
+                <div className="contact-info">
                     <ul>
                         <p>
-                                662-545-7566
+                            662-545-7566
                         </p>
                         <p>
                             <a href="https://www.linkedin.com/in/maria-meyer-136484227/" rel="linkedin account">
