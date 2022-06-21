@@ -3,15 +3,15 @@ import React from "react";
 function HeaderNav({ currentPage, handlePageChange }) {
     const data = [
         {
-            href: '#about-me',
+            href: '#about',
             pageName: 'About',
         },
         {
-            href: '#my-work',
+            href: '#portfolio',
             pageName: 'Portfolio',
         },
         {
-            href: '#contact-me',
+            href: '#contact',
             pageName: 'Contact',
         },
         {

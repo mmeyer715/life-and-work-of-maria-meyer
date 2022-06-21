@@ -14,13 +14,14 @@ export default function AppContainer() {
         if (currentPage === 'About') {
             return <About />;
         }
-        if (currentPage === 'Porfolio') {
+        if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
         if (currentPage === 'Contact') {
             return <Contact />
         }
         return <Resume />
+
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
