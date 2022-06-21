@@ -4,30 +4,45 @@ function Contact() {
     return (
 
         <section>
+            <form>
+                <div className="form-group">
+                    <div className="row">
+                        <div className="col">
+                            <label for='firstName'>First Name:</label>
+                            <input type={'text'} className="form-control" placeholder="First name" />
+                        </div>
+                        <div className="col">
+                            <label form="lastName">Last Name:</label>
+                            <input type={'text'} className="form-control" placeholder="Last name" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <label for='emailInput'>Email Address:</label>
+                        <input type={'email'} className='form-control' placeholder="email@email.com" />
+                    </div>
+                    <div className="row">
+                        <label for='messageInput'>Write message here:</label>
+                        <textarea className="form-control"></textarea>
+                    </div>
+                </div>
+            </form>
             <div class="flex-contact">
-                <h1>ContactMe</h1>
+                <h1>Additional Contact Information</h1>
                 <div class="contact-info">
                     <ul>
-                        <li>
-                            <a href="662-545-7566">
+                        <p>
                                 662-545-7566
-                            </a>
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                             <a href="https://www.linkedin.com/in/maria-meyer-136484227/" rel="linkedin account">
                                 Linkedin
                             </a>
-                        </li>
-                        <li>
+                        </p>
+                        <p>
                             <a href="mbean1216@icloud.com" rel="personal email">
                                 mbean1216@icloud.com
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/mmeyer715" rel="github account">
-                                GitHub
-                            </a>
-                        </li>
+                        </p>
                     </ul>
                 </div>
             </div>
