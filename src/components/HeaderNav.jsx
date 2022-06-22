@@ -28,7 +28,7 @@ function HeaderNav({ currentPage, handlePageChange }) {
                     </h1>
                 </div>
                 <div className='col-9'>
-                    <ul className='nav nav-tabs'>
+                    <ul className='navBar nav nav-tabs'>
                         {data.map((fields, index) => {
                             return (
                                 <li key={index} className='nav-item'>

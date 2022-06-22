@@ -1,3 +1,20 @@
-nav-link {
-    color: black;
+:root {
+    --primary: #7c587f;
+  --secondary: #4c3f77;
+  --tertiary: #B12704;
+  --light: #a4bcbc;
+  --dark: #051126;
+  --contrast: #007f97;
+}
+
+* {
+    background-color: var(--light);
+}
+
+.headerNav {
+    padding: 25px;
+}
+
+.nav-item {
+    margin: auto;
 }

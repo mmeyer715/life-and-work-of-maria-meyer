@@ -17,10 +17,10 @@ function Contact() {
                     <div className="row">
                         <div className="col">
                             <label for='firstName'>First Name:</label>
-                            <input onBlur={handleBlur} className="form-control" placeholder="First name" name='firstName' />
+                            <input type={'tesxt'} onBlur={handleBlur} className="form-control" placeholder="First name" name='firstName' />
                         </div>
                         <div className="col">
-                            <label form="lastName">Last Name:</label>
+                            <label for="lastName">Last Name:</label>
                             <input type={'text'} className="form-control" placeholder="Last name" />
                         </div>
                     </div>
