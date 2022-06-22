@@ -8,13 +8,35 @@
 }
 
 * {
-    background-color: var(--light);
+    background-color: var(--primary);
 }
 
 .headerNav {
-    padding: 25px;
+    background-color: var(--secondary);
+}
+
+.myName h1{
+    color: var(--dark);
+    padding: 10px;
+    background-color: var(--secondary);
+    border-bottom: solid 3px var(--secondary);
+
+}
+
+.navLinks ul {
+    font-size: large;
+    padding: 10px;
+    background-color: var(--secondary);
+    border-bottom: solid 6px var(--secondary);
 }
 
 .nav-item {
+    color: var(--dark);
+    background-color: var(--secondary);
     margin: auto;
+}
+
+.recentPic {
+   max-width: 200px;
+   max-height: 500px;
 }

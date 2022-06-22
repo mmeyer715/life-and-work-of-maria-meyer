@@ -28,10 +28,10 @@ export default function AppContainer() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        <div>
+        <>
             <HeaderNav currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
             <Footer />
-        </div>
+        </>
     );
 }

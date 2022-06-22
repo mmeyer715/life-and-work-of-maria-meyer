@@ -1,13 +1,13 @@
-import React, {useState} from "react";
+import React from "react";
 
 
 function Contact() {
-    const [formInfo, setFormInfo] = useState({
-        firstName: ''
-    })
-    const handleBlur = (event) => {
-        console.log(event.target.value.length);
-    }
+    // const [formInfo, setFormInfo] = useState({
+    //     firstName: ''
+    // })
+    // const handleBlur = (event) => {
+    //     console.log(event.target.value.length);
+    // }
 
     return (
 
@@ -17,7 +17,7 @@ function Contact() {
                     <div className="row">
                         <div className="col">
                             <label for='firstName'>First Name:</label>
-                            <input type={'tesxt'} onBlur={handleBlur} className="form-control" placeholder="First name" name='firstName' />
+                            <input type={'tesxt'}  className="form-control" placeholder="First name" name='firstName' />
                         </div>
                         <div className="col">
                             <label for="lastName">Last Name:</label>

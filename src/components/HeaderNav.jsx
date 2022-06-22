@@ -20,14 +20,14 @@ function HeaderNav({ currentPage, handlePageChange }) {
         },
     ]
     return (
-        <header className='headerNav'>
-            <div className='d-flex justify-content-between'>
-                <div className='col-3'>
+        <header>
+            <div className="headerNav d-flex flex-row justify-content-between">
+                <div className="myName">
                     <h1>
                         Maria Meyer
                     </h1>
                 </div>
-                <div className='col-9'>
+                <div className="navLinks col">
                     <ul className='navBar nav nav-tabs'>
                         {data.map((fields, index) => {
                             return (
