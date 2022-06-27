@@ -55,20 +55,19 @@ function Contact() {
                 <button type="submit">Submit</button>
             </form>
             
-            <div className="flex-contact">
-                <h1>Additional Forms of Contact</h1>
+            <div className="flex-contact d-flex justify-content-center">
                 <div className="contact-info">
                     <ul>
                         <p>
-                            662-545-7566
+                            Phone: 662-545-7566
+                        </p>
+                        <p>
+                            Email: mbean1216@icloud.com
                         </p>
                         <p>
                             <a href="https://www.linkedin.com/in/maria-meyer-136484227/" rel="linkedin account">
                                 Linkedin
                             </a>
-                        </p>
-                        <p>
-                                mbean1216@icloud.com
                         </p>
                     </ul>
                 </div>

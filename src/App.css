@@ -8,7 +8,7 @@
 }
 
 * {
-    background-color: var(--primary);
+    background-color: var(--light);
 }
 
 form {
@@ -21,6 +21,10 @@ input {
 
 textarea {
     background-color: white;
+}
+
+p {
+    color: #051126;
 }
 
 .headerNav {
@@ -59,4 +63,9 @@ textarea {
 .footImg {
     height: 50px;
     width: 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #051126;
 }
