@@ -33,7 +33,7 @@ function Contact() {
     return (
         <section>
             <form id="contact-htmlForm" onSubmit={handleSubmit}>
-                <div className="htmlForm-group">
+                <div className="htmlForm">
                     <div className="row">
                             <label htmlFor='name'>Name:</label>
                             <input type="text" defaultValue={name} onBlur={handleBlur} className="htmlForm-control" placeholder="Example: John Doe" name='name' />

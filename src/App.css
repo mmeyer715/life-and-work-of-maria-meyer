@@ -11,7 +11,23 @@
     background-color: var(--primary);
 }
 
+form {
+    margin: 100px;
+}
+
+input {
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+}
+
 .headerNav {
+    background-color: var(--secondary);
+}
+
+.navContainer {
     background-color: var(--secondary);
 }
 
@@ -36,12 +52,8 @@
     margin: auto;
 }
 
-.recentPic {
-   border: solid 2px var(--light);
-}
-
-.bio {
-    margin-right: 100px;
+.cardContainer {
+    border: solid 5px var(--light);
 }
 
 .footImg {

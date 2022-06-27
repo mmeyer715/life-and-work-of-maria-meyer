@@ -21,28 +21,30 @@ function HeaderNav({ currentPage, handlePageChange }) {
     ]
     return (
         <header>
-            <div className="headerNav d-flex flex-row justify-content-between">
-                <div className="myName">
-                    <h1>
-                        Maria Meyer
-                    </h1>
-                </div>
-                <div className="navLinks col">
-                    <ul className="navBar nav nav-tabs">
-                        {data.map((fields, index) => {
-                            return (
-                                <li key={index} className="nav-item">
-                                    <a
-                                        href={fields.href}
-                                        onClick={() => handlePageChange(fields.pageName)}
-                                        className={currentPage === fields.pageName ? "nav-link active" : "nav-link"}
-                                    >
-                                        {fields.pageName}
-                                    </a>
-                                </li>
-                            )
-                        })}
-                    </ul>
+            <div className="headerNav">
+                <div className="navContainer d-flex flex-row justify-content-between">
+                    <div className="myName">
+                        <h1>
+                            Maria Meyer
+                        </h1>
+                    </div>
+                    <div className="navLinks col">
+                        <ul className="navBar nav nav-tabs">
+                            {data.map((fields, index) => {
+                                return (
+                                    <li key={index} className="nav-item">
+                                        <a
+                                            href={fields.href}
+                                            onClick={() => handlePageChange(fields.pageName)}
+                                            className={currentPage === fields.pageName ? "nav-link active" : "nav-link"}
+                                        >
+                                            {fields.pageName}
+                                        </a>
+                                    </li>
+                                )
+                            })}
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header >
