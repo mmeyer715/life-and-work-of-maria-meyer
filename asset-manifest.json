@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/life-and-work-of-maria-meyer/static/css/main.b7c4ae28.chunk.css",
-    "main.js": "/life-and-work-of-maria-meyer/static/js/main.d194a52f.chunk.js",
-    "main.js.map": "/life-and-work-of-maria-meyer/static/js/main.d194a52f.chunk.js.map",
+    "main.css": "/life-and-work-of-maria-meyer/static/css/main.89f965e9.chunk.css",
+    "main.js": "/life-and-work-of-maria-meyer/static/js/main.661bc662.chunk.js",
+    "main.js.map": "/life-and-work-of-maria-meyer/static/js/main.661bc662.chunk.js.map",
     "runtime-main.js": "/life-and-work-of-maria-meyer/static/js/runtime-main.e8aded9c.js",
     "runtime-main.js.map": "/life-and-work-of-maria-meyer/static/js/runtime-main.e8aded9c.js.map",
     "static/css/2.cbedb215.chunk.css": "/life-and-work-of-maria-meyer/static/css/2.cbedb215.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.544bcd38.chunk.js.map": "/life-and-work-of-maria-meyer/static/js/3.544bcd38.chunk.js.map",
     "index.html": "/life-and-work-of-maria-meyer/index.html",
     "static/css/2.cbedb215.chunk.css.map": "/life-and-work-of-maria-meyer/static/css/2.cbedb215.chunk.css.map",
-    "static/css/main.b7c4ae28.chunk.css.map": "/life-and-work-of-maria-meyer/static/css/main.b7c4ae28.chunk.css.map",
+    "static/css/main.89f965e9.chunk.css.map": "/life-and-work-of-maria-meyer/static/css/main.89f965e9.chunk.css.map",
     "static/js/2.f2602b6a.chunk.js.LICENSE.txt": "/life-and-work-of-maria-meyer/static/js/2.f2602b6a.chunk.js.LICENSE.txt",
     "static/media/Stack.646c1767.png": "/life-and-work-of-maria-meyer/static/media/Stack.646c1767.png",
     "static/media/betterDay.377ebf63.png": "/life-and-work-of-maria-meyer/static/media/betterDay.377ebf63.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.e8aded9c.js",
     "static/css/2.cbedb215.chunk.css",
     "static/js/2.f2602b6a.chunk.js",
-    "static/css/main.b7c4ae28.chunk.css",
-    "static/js/main.d194a52f.chunk.js"
+    "static/css/main.89f965e9.chunk.css",
+    "static/js/main.661bc662.chunk.js"
   ]
 }
