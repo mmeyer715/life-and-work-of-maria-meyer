@@ -37,6 +37,9 @@
 }
 
 .recentPic {
-   max-width: 200px;
-   max-height: 500px;
+   border: solid 2px var(--light);
+}
+
+.bio {
+    margin-right: 100px;
 }
