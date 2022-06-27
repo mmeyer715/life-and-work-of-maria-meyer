@@ -56,7 +56,7 @@ function Contact() {
             </form>
             
             <div className="flex-contact">
-                <h1>Additional Contact InhtmlFormation</h1>
+                <h1>Additional Forms of Contact</h1>
                 <div className="contact-info">
                     <ul>
                         <p>
@@ -68,9 +68,7 @@ function Contact() {
                             </a>
                         </p>
                         <p>
-                            <a href="mbean1216@icloud.com" rel="personal email">
                                 mbean1216@icloud.com
-                            </a>
                         </p>
                     </ul>
                 </div>
