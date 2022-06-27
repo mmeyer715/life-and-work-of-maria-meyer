@@ -1,7 +1,7 @@
 {
   "name": "life-and-work-of-maria-meyer",
   "version": "0.1.0",
-  "homepage": "https://mmeyer715.github.io/life-and-work-of-maria-meyer",
+  "homepage": "http://mmeyer715.github.io/life-and-work-of-maria-meyer",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.1.3",
