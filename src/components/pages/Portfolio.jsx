@@ -57,8 +57,8 @@ function Portfolio() {
 
                 return (
                     <div key={index} className="cardContainer card col-sm-12 col-md-6 col-lg-4 d-flex flex-column" >
-                        <img className="card-img-top h-25" src={fields.img} alt="" />
-                        <div className="card-body h-75">
+                        <img className="card-img-top h-50" src={fields.img} alt="" />
+                        <div className="card-body h-50">
                             <h5 className="card-title">{fields.title}</h5>
                             <p>Technologies Used: {fields.technologies}</p>
                             <p> <a href={fields.gitHub}>GitHub Repo</a> </p>

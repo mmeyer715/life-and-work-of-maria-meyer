@@ -23,13 +23,13 @@ function HeaderNav({ currentPage, handlePageChange }) {
         <header>
             <div className="headerNav">
                 <div className="navContainer d-flex flex-row justify-content-between">
-                    <div className="myName">
-                        <h1>
-                            Maria Meyer
-                        </h1>
-                    </div>
                     <div className="navLinks col">
                         <ul className="navBar nav nav-tabs">
+                            <li className="myName">
+                                <h1>
+                                    Maria Meyer
+                                </h1>
+                            </li>
                             {data.map((fields, index) => {
                                 return (
                                     <li key={index} className="nav-item">

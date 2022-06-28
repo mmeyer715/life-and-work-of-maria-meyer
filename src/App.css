@@ -27,6 +27,8 @@ p {
     color: #051126;
 }
 
+
+
 .headerNav {
     background-color: var(--secondary);
 }
@@ -35,19 +37,10 @@ p {
     background-color: var(--secondary);
 }
 
-.myName h1{
-    color: var(--dark);
-    padding: 10px;
-    background-color: var(--secondary);
-    border-bottom: solid 3px var(--secondary);
-
-}
-
 .navLinks ul {
     font-size: large;
     padding: 10px;
     background-color: var(--secondary);
-    border-bottom: solid 6px var(--secondary);
 }
 
 .nav-item {
@@ -57,7 +50,11 @@ p {
 }
 
 .cardContainer {
-    border: solid 5px var(--light);
+    height: 400px;
+}
+
+.myName {
+    background-color: #4c3f77;
 }
 
 .footImg {
@@ -68,4 +65,8 @@ p {
 a:link {
     text-decoration: none;
     color: #051126;
+}
+
+.active {
+    background-color: blue !important;
 }
