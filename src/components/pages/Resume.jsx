@@ -5,7 +5,7 @@ function Resume() {
         'HTML', 'CSS', 'JavaScript', 'Node.js', 'React.js', 'Express.js', 'Handlebars', 'MVC framework', 'OPP', 'SQL', 'NoSQL', 'MongoDB', 'server-side development', 'Heroku', 'Github', 'UI/UX design', 'MERN', 'Test Driven Development'
     ]
     return (
-        <div>
+        <div className="resumeContainer">
             <div className="skillsList">
                 <ul>
                     {data.map((fields, index) => {

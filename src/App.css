@@ -7,12 +7,8 @@
   --contrast: #007f97;
 }
 
-* {
-    background-color: var(--light);
-}
-
 form {
-    margin: 100px;
+    margin: 10px;
 }
 
 input {
@@ -27,7 +23,9 @@ p {
     color: #051126;
 }
 
-
+footer {
+    background-color: #051126;
+}
 
 .headerNav {
     background-color: var(--secondary);
@@ -49,12 +47,28 @@ p {
     margin: auto;
 }
 
+.aboutContainer {
+    background-color: var(--light);
+}
+
 .cardContainer {
     height: 400px;
 }
 
 .myName {
     background-color: #4c3f77;
+}
+
+.portfolioContainer {
+    background-color: var(--light);
+}
+
+.cardSection {
+    border: 2px solid var(--dark) !important;
+}
+
+.portCards {
+    background-color: lightgrey;
 }
 
 .footImg {
@@ -67,6 +81,31 @@ a:link {
     color: #051126;
 }
 
+.nav-link {
+    color: var(--contrast) !important;
+    font-weight: bold !important;
+}
+
 .active {
-    background-color: blue !important;
+    background-color: var(--secondary) !important;
+    /* color: white !important; */
+    border: none !important;
+    border-bottom: 2px solid white !important;
+}
+
+.contactCard {
+    text-align: center;
+    margin: 10px;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: var(--light) !important;
+}
+
+.resumeContainer {
+    background-color: var(--light
+    );
 }

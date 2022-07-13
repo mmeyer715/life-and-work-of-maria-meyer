@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
+import { Form, Button, Card, ListGroup, Container } from 'react-bootstrap';
 
 
 function Contact() {
@@ -30,49 +31,38 @@ function Contact() {
         event.preventDefault();
     }
 
-    return (
-        <section>
-            <form id="contact-htmlForm" onSubmit={handleSubmit}>
-                <div className="htmlForm">
-                    <div className="row">
-                            <label htmlFor='name'>Name:</label>
-                            <input type="text" defaultValue={name} onBlur={handleBlur} className="htmlForm-control" placeholder="Example: John Doe" name='name' />
-                    </div>
-                    <div className="row">
-                        <label htmlFor='email'>Email Address:</label>
-                        <input type="email" defaultValue={email} onBlur={handleBlur} className='htmlForm-control' placeholder="email@email.com" name="email" />
-                    </div>
-                    <div className="row">
-                        <label htmlFor='message'>Write message here:</label>
-                        <textarea defaultValue={message} onBlur={handleBlur} className="htmlForm-control" name="message"></textarea>
-                    </div>
-                </div>
-                {errMsg && (
-                    <div>
-                        <p>{errMsg}</p>
-                    </div>
-                )}
-                <button type="submit">Submit</button>
-            </form>
-            
-            <div className="flex-contact d-flex justify-content-center">
-                <div className="contact-info">
-                    <ul>
-                        <p>
+    return (     
+            <div className="contactContainer">
+                <Form id="contact-htmlForm" onSubmit={handleSubmit}>
+                    <Form.Group>
+                        <Form.Label htmlFor='name'>Name:</Form.Label>
+                        <Form.Control type="text" defaultValue={name} onBlur={handleBlur} className="htmlForm-control" placeholder="Example: John Doe" name='name' />
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Label htmlFor='email'>Email:</Form.Label>
+                        <Form.Control type="email" defaultValue={email} onBlur={handleBlur} className='htmlForm-control' placeholder="email@email.com" name="email" />
+                    </Form.Group>
+                    <Form.Group>
+                        <Form.Label htmlFor='message'>Write message here:</Form.Label>
+                        <Form.Control as="textarea" defaultValue={message} onBlur={handleBlur} className="htmlForm-control" name="message" placeholder="Hello Maria....." />
+                    </Form.Group>
+
+                    <Button type="submit">Submit</Button>
+                </Form>
+
+                <Card className="contactCard" >
+                    <Card.Body>
+                        <Card.Title>Contact Information</Card.Title>
+                        <Card.Text>
                             Phone: 662-545-7566
-                        </p>
-                        <p>
+                        </Card.Text>
+                        <Card.Text>
                             Email: mbean1216@icloud.com
-                        </p>
-                        <p>
-                            <a href="https://www.linkedin.com/in/maria-meyer-136484227/" rel="linkedin account">
-                                Linkedin
-                            </a>
-                        </p>
-                    </ul>
-                </div>
+                        </Card.Text>
+                        <Card.Link href="https://www.linkedin.com/in/maria-meyer-136484227/">LinkedIn</Card.Link>
+                    </Card.Body>
+                </Card>
             </div>
-        </section>
     );
 }
 
