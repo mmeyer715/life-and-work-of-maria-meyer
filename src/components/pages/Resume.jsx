@@ -15,7 +15,7 @@ function Resume() {
                     })}
                 </ul>
             </div>
-            <h1><a href='https://docdro.id/QLxcbQO' download>View Resume Here</a></h1>
+            <h1><a href='https://docdro.id/OnUgxZM' download>View Resume Here</a></h1>
         </div>
     );
 }
