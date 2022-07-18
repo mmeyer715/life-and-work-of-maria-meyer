@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/life-and-work-of-maria-meyer/static/css/main.094c3d68.chunk.css",
-    "main.js": "/life-and-work-of-maria-meyer/static/js/main.66f05bad.chunk.js",
-    "main.js.map": "/life-and-work-of-maria-meyer/static/js/main.66f05bad.chunk.js.map",
+    "main.js": "/life-and-work-of-maria-meyer/static/js/main.85ca5373.chunk.js",
+    "main.js.map": "/life-and-work-of-maria-meyer/static/js/main.85ca5373.chunk.js.map",
     "runtime-main.js": "/life-and-work-of-maria-meyer/static/js/runtime-main.5e1cd632.js",
     "runtime-main.js.map": "/life-and-work-of-maria-meyer/static/js/runtime-main.5e1cd632.js.map",
     "static/css/2.cbedb215.chunk.css": "/life-and-work-of-maria-meyer/static/css/2.cbedb215.chunk.css",
@@ -29,6 +29,6 @@
     "static/css/2.cbedb215.chunk.css",
     "static/js/2.4d619afd.chunk.js",
     "static/css/main.094c3d68.chunk.css",
-    "static/js/main.66f05bad.chunk.js"
+    "static/js/main.85ca5373.chunk.js"
   ]
 }
