@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/life-and-work-of-maria-meyer/static/css/main.094c3d68.chunk.css",
-    "main.js": "/life-and-work-of-maria-meyer/static/js/main.85ca5373.chunk.js",
-    "main.js.map": "/life-and-work-of-maria-meyer/static/js/main.85ca5373.chunk.js.map",
+    "main.js": "/life-and-work-of-maria-meyer/static/js/main.c6c40ca4.chunk.js",
+    "main.js.map": "/life-and-work-of-maria-meyer/static/js/main.c6c40ca4.chunk.js.map",
     "runtime-main.js": "/life-and-work-of-maria-meyer/static/js/runtime-main.5e1cd632.js",
     "runtime-main.js.map": "/life-and-work-of-maria-meyer/static/js/runtime-main.5e1cd632.js.map",
     "static/css/2.cbedb215.chunk.css": "/life-and-work-of-maria-meyer/static/css/2.cbedb215.chunk.css",
-    "static/js/2.4d619afd.chunk.js": "/life-and-work-of-maria-meyer/static/js/2.4d619afd.chunk.js",
-    "static/js/2.4d619afd.chunk.js.map": "/life-and-work-of-maria-meyer/static/js/2.4d619afd.chunk.js.map",
+    "static/js/2.86928ecf.chunk.js": "/life-and-work-of-maria-meyer/static/js/2.86928ecf.chunk.js",
+    "static/js/2.86928ecf.chunk.js.map": "/life-and-work-of-maria-meyer/static/js/2.86928ecf.chunk.js.map",
     "static/js/3.ed24f692.chunk.js": "/life-and-work-of-maria-meyer/static/js/3.ed24f692.chunk.js",
     "static/js/3.ed24f692.chunk.js.map": "/life-and-work-of-maria-meyer/static/js/3.ed24f692.chunk.js.map",
     "index.html": "/life-and-work-of-maria-meyer/index.html",
     "static/css/2.cbedb215.chunk.css.map": "/life-and-work-of-maria-meyer/static/css/2.cbedb215.chunk.css.map",
     "static/css/main.094c3d68.chunk.css.map": "/life-and-work-of-maria-meyer/static/css/main.094c3d68.chunk.css.map",
-    "static/js/2.4d619afd.chunk.js.LICENSE.txt": "/life-and-work-of-maria-meyer/static/js/2.4d619afd.chunk.js.LICENSE.txt",
+    "static/js/2.86928ecf.chunk.js.LICENSE.txt": "/life-and-work-of-maria-meyer/static/js/2.86928ecf.chunk.js.LICENSE.txt",
     "static/media/Stack.646c1767.png": "/life-and-work-of-maria-meyer/static/media/Stack.646c1767.png",
     "static/media/betterDay.377ebf63.png": "/life-and-work-of-maria-meyer/static/media/betterDay.377ebf63.png",
     "static/media/boozers.4d652d73.png": "/life-and-work-of-maria-meyer/static/media/boozers.4d652d73.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.5e1cd632.js",
     "static/css/2.cbedb215.chunk.css",
-    "static/js/2.4d619afd.chunk.js",
+    "static/js/2.86928ecf.chunk.js",
     "static/css/main.094c3d68.chunk.css",
-    "static/js/main.85ca5373.chunk.js"
+    "static/js/main.c6c40ca4.chunk.js"
   ]
 }
